@@ -309,7 +309,7 @@ make_uri_from_user_input(const gchar *uri) {
     }
 
     /* not a path on the filesystem, just assume it's an HTTP URL. */
-    return g_strconcat("http://", uri, NULL);
+    return g_strconcat("http://www.google.com/search?q=", uri, NULL);
 }
 
 void
